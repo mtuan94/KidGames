@@ -1,0 +1,7 @@
+k5 template
+
+<p>{{data}}</p>
+{% load staticfiles %}
+<img href= "/{{ data}}" src="/{{ data}}" height="70" width="70" />
+<img src="/static{{data}}" alt="My image"/>
+<img src="{% static "k5/q1/config.png" %}" alt="My image"/>

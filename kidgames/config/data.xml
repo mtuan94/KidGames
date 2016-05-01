@@ -1,0 +1,128 @@
+
+<root>
+	<category name="k5">
+		<question id="1">
+				<string>Which on the right ?</string>
+				<answeer>2</answeer>
+				<data>
+					<photo position="1">url photo 2</photo>
+					<photo position="2">url photo 2</photo>	
+				</data>
+				
+		</question>
+
+		<question id="2">
+				<string>Which on the left ?</string>
+				<answeer>2</answeer>
+				<data>
+					<photo position="1">/k6/q1/1.jpg</photo>
+					<photo position="2">/k6/q1/2.jpg</photo>
+				</data>
+		</question>
+	</category>
+
+	<category name="k6">
+		<question id="1">
+				<string>Which on the right ?</string>
+				<answeer>2</answeer>
+				<data>
+					<photo position="1">url photo 1</photo>
+					<photo position="2">url photo 2</photo>	
+				</data>
+				
+		</question>
+
+		<question id="2">
+				<string>Which on the left ?</string>
+				<answeer>2</answeer>
+				<data>
+					<photo position="1">url</photo>
+					<photo position="2">url</photo>
+				</data>
+		</question>
+	</category>
+
+	<category name="k7">
+		<question id="1">
+				<string>Which on the right ?</string>
+				<answeer>2</answeer>
+				<data>
+					<photo position="1">url photo 1</photo>
+					<photo position="2">url photo 2</photo>	
+				</data>
+				
+		</question>
+
+		<question id="2">
+				<string>Which on the left ?</string>
+				<answeer>2</answeer>
+				<data>
+					<photo position="1">url</photo>
+					<photo position="2">url</photo>
+				</data>
+		</question>
+	</category>
+
+	<category name="k8">
+		<question id="1">
+				<string>Which on the right ?</string>
+				<answeer>2</answeer>
+				<data>
+					<photo position="1">url photo 1</photo>
+					<photo position="2">url photo 2</photo>	
+				</data>
+				
+		</question>
+
+		<question id="2">
+				<string>Which on the left ?</string>
+				<answeer>2</answeer>
+				<data>
+					<photo position="1">url</photo>
+					<photo position="2">url</photo>
+				</data>
+		</question>
+	</category>
+
+	<category name="l1">
+		<question id="1">
+				<string>Which on the right ?</string>
+				<answeer>2</answeer>
+				<data>
+					<photo position="1">url photo 1</photo>
+					<photo position="2">url photo 2</photo>	
+				</data>
+				
+		</question>
+
+		<question id="2">
+				<string>Which on the left ?</string>
+				<answeer>2</answeer>
+				<data>
+					<photo position="1">url</photo>
+					<photo position="2">url</photo>
+				</data>
+		</question>
+	</category>
+
+	<category name="l2">
+		<question id="1">
+				<string>Which on the right ?</string>
+				<answeer>2</answeer>
+				<data>
+					<photo position="1">url photo 1</photo>
+					<photo position="2">url photo 2</photo>	
+				</data>
+				
+		</question>
+
+		<question id="2">
+				<string>Which on the left ?</string>
+				<answeer>2</answeer>
+				<data>
+					<photo position="1">url</photo>
+					<photo position="2">url</photo>
+				</data>
+		</question>
+	</category>	
+</root>
