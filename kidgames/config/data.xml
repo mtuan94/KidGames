@@ -27,21 +27,21 @@
 		<question id="0">
 				<string>Vật nào ở bên phải ?</string>
 				<answeer>2</answeer>
-				<audio>/k6/q1/audio.mp3</audio>
+				<audio>/static/k6/q1/audio.mp3</audio>
 				<data>
-					<photo position="1">/k6/q1/1.png</photo>
-					<photo position="2">/k6/q1/2.png</photo>
+					<photo position="1">/static/k6/q1/1.png</photo>
+					<photo position="2">/static/k6/q1/2.png</photo>
 				</data>
 				
 		</question>
 
 		<question id="1">
-				<string>Which on the left ?</string>
-				<answeer>2</answeer>
+				<string>Vat nao o ben trai ?</string>
+				<answeer>1</answeer>
 				<audio></audio>
 				<data>
-					<photo position="1">url</photo>
-					<photo position="2">url</photo>
+					<photo position="1">/static/k6/q2/1.png</photo>
+					<photo position="2">/static/k6/q2/2.png</photo>
 				</data>
 		</question>
 	</category>
