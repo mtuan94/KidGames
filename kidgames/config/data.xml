@@ -1,9 +1,10 @@
 
 <root>
-	<category name="k5">
-		<question id="1">
+	<category name="k5" id="0">
+		<question id="0">
 				<string>Which on the right ?</string>
 				<answeer>2</answeer>
+				<audio></audio>
 				<data>
 					<photo position="1">url photo 2</photo>
 					<photo position="2">url photo 2</photo>	
@@ -11,30 +12,33 @@
 				
 		</question>
 
-		<question id="2">
-				<string>Which on the left ?</string>
+		<question id="1">
+				<string>Vật nào ở bên phải ?</string>
 				<answeer>2</answeer>
+				<audio></audio>
 				<data>
-					<photo position="1">/k6/q1/1.jpg</photo>
-					<photo position="2">/k6/q1/2.jpg</photo>
+					<photo position="1">url photo 2</photo>
+					<photo position="2">url photo 2</photo>	
 				</data>
 		</question>
 	</category>
 
-	<category name="k6">
-		<question id="1">
-				<string>Which on the right ?</string>
+	<category name="k6" id="1">
+		<question id="0">
+				<string>Vật nào ở bên phải ?</string>
 				<answeer>2</answeer>
+				<audio>/k6/q1/audio.mp3</audio>
 				<data>
-					<photo position="1">url photo 1</photo>
-					<photo position="2">url photo 2</photo>	
+					<photo position="1">/k6/q1/1.png</photo>
+					<photo position="2">/k6/q1/2.png</photo>
 				</data>
 				
 		</question>
 
-		<question id="2">
+		<question id="1">
 				<string>Which on the left ?</string>
 				<answeer>2</answeer>
+				<audio></audio>
 				<data>
 					<photo position="1">url</photo>
 					<photo position="2">url</photo>
@@ -42,10 +46,11 @@
 		</question>
 	</category>
 
-	<category name="k7">
-		<question id="1">
+	<category name="k7" id="2">
+		<question id="0">
 				<string>Which on the right ?</string>
 				<answeer>2</answeer>
+				<audio></audio>
 				<data>
 					<photo position="1">url photo 1</photo>
 					<photo position="2">url photo 2</photo>	
@@ -53,9 +58,10 @@
 				
 		</question>
 
-		<question id="2">
+		<question id="1">
 				<string>Which on the left ?</string>
 				<answeer>2</answeer>
+				<audio></audio>
 				<data>
 					<photo position="1">url</photo>
 					<photo position="2">url</photo>
@@ -63,10 +69,11 @@
 		</question>
 	</category>
 
-	<category name="k8">
-		<question id="1">
+	<category name="k8" id="3">
+		<question id="0">
 				<string>Which on the right ?</string>
 				<answeer>2</answeer>
+				<audio></audio>
 				<data>
 					<photo position="1">url photo 1</photo>
 					<photo position="2">url photo 2</photo>	
@@ -74,9 +81,10 @@
 				
 		</question>
 
-		<question id="2">
+		<question id="1">
 				<string>Which on the left ?</string>
 				<answeer>2</answeer>
+				<audio></audio>
 				<data>
 					<photo position="1">url</photo>
 					<photo position="2">url</photo>
@@ -84,10 +92,11 @@
 		</question>
 	</category>
 
-	<category name="l1">
-		<question id="1">
+	<category name="l1" id="4">
+		<question id="0">
 				<string>Which on the right ?</string>
 				<answeer>2</answeer>
+				<audio></audio>
 				<data>
 					<photo position="1">url photo 1</photo>
 					<photo position="2">url photo 2</photo>	
@@ -95,9 +104,10 @@
 				
 		</question>
 
-		<question id="2">
+		<question id="1">
 				<string>Which on the left ?</string>
 				<answeer>2</answeer>
+				<audio></audio>
 				<data>
 					<photo position="1">url</photo>
 					<photo position="2">url</photo>
@@ -105,10 +115,11 @@
 		</question>
 	</category>
 
-	<category name="l2">
-		<question id="1">
+	<category name="l2" id="5">
+		<question id="0">
 				<string>Which on the right ?</string>
 				<answeer>2</answeer>
+				<audio></audio>
 				<data>
 					<photo position="1">url photo 1</photo>
 					<photo position="2">url photo 2</photo>	
@@ -116,9 +127,10 @@
 				
 		</question>
 
-		<question id="2">
+		<question id="1">
 				<string>Which on the left ?</string>
 				<answeer>2</answeer>
+				<audio></audio>
 				<data>
 					<photo position="1">url</photo>
 					<photo position="2">url</photo>

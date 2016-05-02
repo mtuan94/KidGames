@@ -13,17 +13,14 @@ k5 template
 <html>
 <body>
 <h1> {{question_string}} </h1>
+
+<audio controls hidden="true" id="voiceQuestion">
+  <source src="/static{{audio_url}}"  type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<button type="button" onclick="play()">Click Me!</button> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script type="text/javascript">
-	$(document).ready(function(){
-	    $("td").click(function(){
-	    	$("td").removeClass("clicked");
-	        $(this).addClass("clicked");
-	        //$("#answeer").val($(this).attr('id'));
-	        $("#answeer").attr('value',$(this).attr('id'))
-	    });
-});
-</script>
+
 <table >
   <tr>
   	{% load staticfiles %}
@@ -31,14 +28,29 @@ k5 template
     <td class="unclicked" id="2"><img onclick="changeText(this)" src="/static{{photo2_url}}"  height="150" width="150" /></td>		
   </tr>
 </table>
-<form action="/games/answeer/" method="POST"> {% csrf_token %}
-  <input type="number" name="answeer" id="answeer" hidden="true" value="0">
-  <input type="number" name="category_id" hidden="true" value="6" >
-  <input type="number" name="question_number" hidden="true" value="1">
-  <input type="submit" value="Submit">
-</form> 
-
+<button type="button" onclick="select()">Chon dap an</button> 
 </body>
+<script type="text/javascript">
+  $(document).ready(function(){
+      $("td").click(function(){
+        $("td").removeClass("clicked");
+          $(this).addClass("clicked");
+          //$("#answeer").val($(this).attr('id'));
+          $("#answeer").attr('value',$(this).attr('id'))
+      });
+});
+  function play(){
+      document.getElementById("voiceQuestion").play();
+  }
+  function select() {
+      if ($("#{{answeer}}").hasClass("clicked")) {
+          alert("chon dung roi be");
+      }else{
+          alert("chon sai roi be");
+      }
+      
+  }
+</script>
 <style>
 .unclicked {
     border-style: solid;
