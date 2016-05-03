@@ -1,11 +1,4 @@
-
-<!DOCTYPE html>
-<html>
-<body>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<div id="question">
-  <h1> {{question_string}} </h1>
+<h1> {{question_string}} </h1>
   <audio controls hidden="true" id="voiceQuestion">
   <source src="{{audio_url}}"  type="audio/mpeg">
   Your browser does not support the audio element.
@@ -15,7 +8,18 @@
     <tr>
       {% load staticfiles %}
       <td class="unclicked" id="1"><img onclick="changeText(this)" src="{{photo1_url}}"  height="150" width="150" /></td>
-      <td class="unclicked" id="2"><img onclick="changeText(this)" src="{{photo2_url}}"  height="150" width="150" /></td>    
+      <td class="unclicked" id="2"><img onclick="changeText(this)" src="{{photo2_url}}"  height="150" width="150" /></td>  
+      <td class="unclicked" id="3"><img onclick="changeText(this)" src="{{photo3_url}}"  height="150" width="150" /></td>  
+    </tr>
+    <tr>
+      <td class="unclicked" id="4"><img onclick="changeText(this)" src="{{photo4_url}}"  height="150" width="150" /></td>
+      <td class="unclicked" id="5"><img onclick="changeText(this)" src="{{photo5_url}}"  height="150" width="150" /></td>  
+      <td class="unclicked" id="6"><img onclick="changeText(this)" src="{{photo6_url}}"  height="150" width="150" /></td>  
+    </tr>
+    <tr>
+      <td class="unclicked" id="7"><img onclick="changeText(this)" src="{{photo7_url}}"  height="150" width="150" /></td>
+      <td class="unclicked" id="8"><img onclick="changeText(this)" src="{{photo8_url}}"  height="150" width="150" /></td>  
+      <td class="unclicked" id="9"><img onclick="changeText(this)" src="{{photo9_url}}"  height="150" width="150" /></td>  
     </tr>
   </table>
   <button type="button" onclick="select()" >Chon dap an</button> 
@@ -23,7 +27,7 @@
 <script language="JavaScript">
 function load_ajax(){
             $.ajax({
-                url : '/l1/loadmore',         //duong dan can goi den
+                url : '/k8/loadmore',         //duong dan can goi den
                 type: 'GET',                   //kieu cua request len server
                 cache: false,
                 data: {
@@ -44,7 +48,6 @@ function load_ajax(){
       $("td").click(function(){
         $("td").removeClass("clicked");
           $(this).addClass("clicked");
-          //$("#answeer").val($(this).attr('id'));
           $("#answeer").attr('value',$(this).attr('id'))
       });
 });
@@ -73,10 +76,3 @@ function load_ajax(){
     border-color: red;
 }
 </style>
-
-</div>
-
-</body>
-</html>
-
-

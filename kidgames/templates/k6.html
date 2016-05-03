@@ -27,7 +27,7 @@ function load_ajax(){
                 type: 'GET',                   //kieu cua request len server
                 cache: false,
                 data: {
-                    answeered : "0"
+                    answeered : {{question_number}}
                 },
                 success:                    //ham sau khi request thanh cong
                         function(result){

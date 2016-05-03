@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<div id="question">
+  <h1> {{question_string}} </h1>
+  <audio controls hidden="true" id="voiceQuestion">
+  <source src="{{audio_url}}"  type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
+  <button type="button" onclick="play()">Voice</button> 
+  <table >
+    <tr>
+      {% load staticfiles %}
+      <td class="unclicked" id="1"><img onclick="changeText(this)" src="{{photo1_url}}"  height="150" width="150" /></td>
+    </tr>
+    <tr>
+      <td class="unclicked" id="4"><img onclick="changeText(this)" src="{{photo4_url}}"  height="150" width="150" /></td>    
+    </tr>
+    <tr>
+      <td class="unclicked" id="7"><img onclick="changeText(this)" src="{{photo7_url}}"  height="150" width="150" /></td>    
+    </tr>
+  </table>
+  <button type="button" onclick="select()" >Chon dap an</button> 
+
+<script language="JavaScript">
+function load_ajax(){
+            $.ajax({
+                url : '/k7/loadmore',         //duong dan can goi den
+                type: 'GET',                   //kieu cua request len server
+                cache: false,
+                data: {
+                    answeered : {{question_number}}
+                },
+                success:                    //ham sau khi request thanh cong
+                        function(result){
+                            //alert("Gui thanh cong !");
+                            if(result.length)
+                            {
+                                //alert(result);
+                                $('#question').html(result);
+                            }
+                        }
+            });
+        };
+  $(document).ready(function(){
+      $("td").click(function(){
+        $("td").removeClass("clicked");
+          $(this).addClass("clicked");
+          //$("#answeer").val($(this).attr('id'));
+          $("#answeer").attr('value',$(this).attr('id'))
+      });
+});
+  function play(){
+      document.getElementById("voiceQuestion").play();
+  }
+  function select() {
+      if ($("#{{answeer}}").hasClass("clicked")) {
+          alert("chon dung roi be");  
+          load_ajax();
+      }else{
+          alert("Chọn sai rồi bé !");
+      }
+      
+  }
+</script>
+<style>
+.unclicked {
+    border-style: solid;
+    border-width: 3px;
+    border-color: green;
+}
+.clicked {
+    border-style: solid;
+    border-width: 3px;
+    border-color: red;
+}
+</style>
+
+</div>
+
+</body>
+</html>
+
+

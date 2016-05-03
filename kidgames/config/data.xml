@@ -2,29 +2,48 @@
 <root>
 	<category name="k5" id="0">
 		<question id="0">
-				<string>Which on the right ?</string>
-				<answeer>2</answeer>
-				<audio></audio>
+				<id>0</id>
+				<string>Which object is beside the one shaped like a cone?</string>
+				<answeer>8</answeer>
+				<audio>/static/k5/q1/audio.mp3</audio>
 				<data>
-					<photo position="1">url photo 2</photo>
-					<photo position="2">url photo 2</photo>	
+					<background>/static/k5/q1/bg.png</background>
+					<photo position="1">/static/k5/q1/1.png</photo>
+					<photo position="2">/static/k5/q1/5.png</photo>	
+					<photo position="3">/static/k5/q1/2.png</photo>
+					<photo position="4">/static</photo>	
+					<photo position="5">/static</photo>	
+					<photo position="6">/static</photo>	
+					<photo position="7">/static</photo>	
+					<photo position="8">/static/k5/q1/4.png</photo>	
+					<photo position="9">/static/k5/q1/3.png</photo>
 				</data>
 				
 		</question>
 
 		<question id="1">
-				<string>Vật nào ở bên phải ?</string>
-				<answeer>2</answeer>
-				<audio></audio>
+				<id>1</id>
+				<string>Which object is beside the one shaped like a cone?</string>
+				<answeer>6</answeer>
+				<audio>/static/k5/q2/audio.mp3</audio>
 				<data>
-					<photo position="1">url photo 2</photo>
-					<photo position="2">url photo 2</photo>	
+					<background>/static/k5/q1/bg.png</background>
+					<photo position="1">/static/k5/q1/1.png</photo>
+					<photo position="2">/static</photo>	
+					<photo position="3">/static/k5/q1/2.png</photo>
+					<photo position="4">/static</photo>	
+					<photo position="5">/static/k5/q1/5.png</photo>	
+					<photo position="6">/static/k5/q1/4.png</photo>	
+					<photo position="7">/static</photo>	
+					<photo position="8">/static/k5/q1/1.png</photo>	
+					<photo position="9">/static/k5/q1/3.png</photo>
 				</data>
 		</question>
 	</category>
 
 	<category name="k6" id="1">
 		<question id="0">
+				<id>0</id>
 				<string>Vật nào ở bên phải ?</string>
 				<answeer>2</answeer>
 				<audio>/static/k6/q1/audio.mp3</audio>
@@ -36,9 +55,10 @@
 		</question>
 
 		<question id="1">
+				<id>1</id>
 				<string>Vat nao o ben trai ?</string>
 				<answeer>1</answeer>
-				<audio></audio>
+				<audio>/static/k6/q2/audio.mp3</audio>
 				<data>
 					<photo position="1">/static/k6/q2/1.png</photo>
 					<photo position="2">/static/k6/q2/2.png</photo>
@@ -48,92 +68,120 @@
 
 	<category name="k7" id="2">
 		<question id="0">
-				<string>Which on the right ?</string>
-				<answeer>2</answeer>
-				<audio></audio>
+				<id>0</id>
+				<string>What is at the top?</string>
+				<answeer>1</answeer>
+				<audio>/static/k7/q1/audio.mp3</audio>
 				<data>
-					<photo position="1">url photo 1</photo>
-					<photo position="2">url photo 2</photo>	
+					<photo position="1">/static/k7/q1/1.png</photo>
+					<photo position="4">/static/k7/q1/4.png</photo>	
+					<photo position="7">/static/k7/q1/7.png</photo>	
 				</data>
 				
 		</question>
 
 		<question id="1">
-				<string>Which on the left ?</string>
-				<answeer>2</answeer>
-				<audio></audio>
+				<id>1</id>
+				<string>What is in the middle?</string>
+				<answeer>4</answeer>
+				<audio>/static/k7/q2/audio.mp3</audio>
 				<data>
-					<photo position="1">url</photo>
-					<photo position="2">url</photo>
+					<photo position="1">/static/k7/q2/1.png</photo>
+					<photo position="4">/static/k7/q2/4.png</photo>	
+					<photo position="7">/static/k7/q2/7.png</photo>	
 				</data>
 		</question>
 	</category>
 
 	<category name="k8" id="3">
 		<question id="0">
-				<string>Which on the right ?</string>
-				<answeer>2</answeer>
-				<audio></audio>
+				<id>0</id>
+				<string>Choose the shape in the bottom right.</string>
+				<answeer>9</answeer>
+				<audio>/static/k8/q1/audio.mp3</audio>
 				<data>
-					<photo position="1">url photo 1</photo>
-					<photo position="2">url photo 2</photo>	
+					<photo position="1">/static/k8/q1/1.png</photo>
+					<photo position="2">/static/k8/q1/2.png</photo>	
+					<photo position="3">/static/k8/q1/3.png</photo>	
+					<photo position="4">/static/k8/q1/4.png</photo>
+					<photo position="5">/static/k8/q1/5.png</photo>	
+					<photo position="6">/static/k8/q1/6.png</photo>	
+					<photo position="7">/static/k8/q1/7.png</photo>
+					<photo position="8">/static/k8/q1/8.png</photo>	
+					<photo position="9">/static/k8/q1/9.png</photo>	
 				</data>
 				
 		</question>
 
 		<question id="1">
-				<string>Which on the left ?</string>
-				<answeer>2</answeer>
-				<audio></audio>
+				<id>1</id>
+				<string>Choose the shape in the top right.</string>
+				<answeer>3</answeer>
+				<audio>/static/k8/q2/audio.mp3</audio>
 				<data>
-					<photo position="1">url</photo>
-					<photo position="2">url</photo>
+					<photo position="1">/static/k8/q1/1.png</photo>
+					<photo position="2">/static/k8/q1/2.png</photo>	
+					<photo position="3">/static/k8/q1/3.png</photo>	
+					<photo position="4">/static/k8/q1/4.png</photo>
+					<photo position="5">/static/k8/q1/5.png</photo>	
+					<photo position="6">/static/k8/q1/6.png</photo>	
+					<photo position="7">/static/k8/q1/7.png</photo>
+					<photo position="8">/static/k8/q1/8.png</photo>	
+					<photo position="9">/static/k8/q1/9.png</photo>	
 				</data>
 		</question>
 	</category>
 
 	<category name="l1" id="4">
 		<question id="0">
-				<string>Which on the right ?</string>
+				<id>0</id>
+				<string>Which figure shows halves?</string>
 				<answeer>2</answeer>
-				<audio></audio>
+				<audio>/static/l1/q1/audio.mp3</audio>
 				<data>
-					<photo position="1">url photo 1</photo>
-					<photo position="2">url photo 2</photo>	
+					<photo position="1">/static/l1/q1/1.png</photo>
+					<photo position="2">/static/l1/q1/2.png</photo>		
 				</data>
 				
 		</question>
 
 		<question id="1">
-				<string>Which on the left ?</string>
+				<id>1</id>
+				<string>Which figure shows thirds?</string>
 				<answeer>2</answeer>
-				<audio></audio>
+				<audio>/static/l1/q2/audio.mp3</audio>
 				<data>
-					<photo position="1">url</photo>
-					<photo position="2">url</photo>
+					<photo position="1">/static/l1/q2/1.png</photo>
+					<photo position="2">/static/l1/q2/2.png</photo>	
 				</data>
 		</question>
 	</category>
 
 	<category name="l2" id="5">
 		<question id="0">
-				<string>Which on the right ?</string>
-				<answeer>2</answeer>
-				<audio></audio>
+				<id>0</id>
+				<string>Select all the pictures that show equal parts.</string>
+				<answeer>124</answeer>
+				<audio>/static/l2/q1/audio.mp3</audio>
 				<data>
-					<photo position="1">url photo 1</photo>
-					<photo position="2">url photo 2</photo>	
+					<photo position="1">/static/l2/q1/1.png</photo>
+					<photo position="2">/static/l2/q1/2.png</photo>	
+					<photo position="3">/static/l2/q1/3.png</photo>
+					<photo position="4">/static/l2/q1/4.png</photo>	
 				</data>
 				
 		</question>
 
 		<question id="1">
-				<string>Which on the left ?</string>
-				<answeer>2</answeer>
-				<audio></audio>
+				<id>1</id>
+				<string>Select all the pictures that show equal parts.</string>
+				<answeer>12</answeer>
+				<audio>/static/l2/q2/audio.mp3</audio>
 				<data>
-					<photo position="1">url</photo>
-					<photo position="2">url</photo>
+					<photo position="1">/static/l2/q2/1.png</photo>
+					<photo position="2">/static/l2/q2/2.png</photo>	
+					<photo position="3">/static/l2/q2/3.png</photo>
+					<photo position="4">/static/l2/q2/4.png</photo>		
 				</data>
 		</question>
 	</category>	
