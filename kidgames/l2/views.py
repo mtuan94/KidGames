@@ -10,12 +10,12 @@ import random
 
 dataPath = os.path.normpath(os.path.join(os.path.dirname(__file__),'..')) + '/config/data.xml'
 staticPath = os.path.normpath(os.path.join(os.path.dirname(__file__),'..')) + '/static'
-QuestionList = [0,1]
+QuestionList = [0,1,2]
 
 def index(request):
     tree = ET.parse(dataPath);
     root = tree.getroot();
-    randowmQuestion = random.choice([0,1]);
+    randowmQuestion = random.choice(QuestionList);
     return render(request,"l2.html",{
     	"url": "url",
         "question_number": root[5][randowmQuestion][0].text,
